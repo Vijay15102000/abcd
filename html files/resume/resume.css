@@ -1,0 +1,13 @@
+.profileimage img{
+    height:100px;
+    width:200px;
+}
+img{
+    float:left;
+}
+.profileimage{
+    height: 40px;
+    width: 40px;
+    border-style: 4px solid black;
+    overflow: visible;
+}

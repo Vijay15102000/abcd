@@ -1,0 +1,18 @@
+.center{
+    
+    color: aliceblue;
+    width:fit-content;
+    height:50px;
+    margin: 50px auto ;
+    background-color: brown;
+    border-radius: 0px 10px 10px 10px;
+  
+}
+.center:hover{
+    border-style: 4px solid black;
+    box-shadow: 4px 4px black;
+
+}
+body{
+    background-color:chocolate ;
+}

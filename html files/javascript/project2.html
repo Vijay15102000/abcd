@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Project 2</title>
+        <style>
+            #one{
+                border-radius: 20px;
+                width: 60px;
+                height:40px;
+                font-size: medium;
+                color:white;
+                background-color: Black;
+            }
+            #two{
+                border-radius: 20px;
+                width: 60px;
+                height:40px;
+                font-size: medium;
+                color:white;
+                background-color: orange; 
+                margin-right:0px;
+                margin-left: 1220px;
+                margin-top: 0px;
+            }
+            #t{
+                border: 2px solid black;
+                margin-top: 20%;
+                margin-left: 40%;
+                height:80px;
+                width:fit-content;
+                padding-top: 40px;
+                padding-left: 10px;
+                padding-right: 10px;
+                border-radius: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <button class="btn" id="one" onClick="dark()">dark</button>
+        <button class="btn" id="two" onClick="light()">light</button>
+        <h2 id="t">The backgrond color is:<span class="color" id="span">white</span></h2>
+
+        <script>
+
+var colors=['white','black']
+function light(){
+    document.getElementById("t").style.color = "black"
+    document.getElementById("t").style.backgroundColor = "yellow"
+var len=colors.length-1;
+var buttonControl=document.getElementById('btn');
+var spanControl=document.getElementById('span').innerHTML=("Light")
+
+buttonControl=addEventListener('click',()=>{
+    console.log(0)
+    document.body.style.backgroundColor=colors[0];
+    console.log(colors[0])
+
+   
+})}
+
+function dark(){
+    document.getElementById("t").style.color = "white"
+    document.getElementById("t").style.backgroundColor = "brown"
+    //document.getElementById("t").style.boxShadow ="0px 0px 20px 20px white"
+
+var len=colors.length-1;
+var buttonControl=document.getElementById('btn');
+var spanControl=document.getElementById('span').innerHTML=("Dark")
+
+buttonControl=addEventListener('click',()=>{
+    console.log(1)
+    document.body.style.backgroundColor=colors[1];
+    console.log(colors[1])
+
+   
+})
+document.getElementById('t').reset()
+}
+
+</script>
+    </body>
+</html>

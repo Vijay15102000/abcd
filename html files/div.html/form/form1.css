@@ -1,0 +1,149 @@
+
+/*.body1{
+    margin-top: 10px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-left: 40%;
+    background-image: url("IMG20200928122404_00.jpg");
+}*/
+body{
+    /*background-image: linear-gradient(to right,orange,white,green);*/
+    margin-top: 10px;
+    background-size:cover ;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-left: 40%;
+}
+.form1{
+    background-image: linear-gradient(to right,orange,white,green);
+    margin-top: 10px;
+    box-shadow: -2px 4px 9px 4px yellow;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    background-color:rgba(160,32, 240, 0.4);
+    border: style 2px solid white;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.form2{
+    background-image: repeating-conic-gradient(red  ,white , black  20%);
+   /* background-image: conic-gradient(red,white,black,pink,yellow);*/
+    margin-top: 10px;
+    box-shadow: -2px 4px 9px 4px yellow;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    background-color:rgba(160,32, 240, 0.4);
+    border: style 2px solid white;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; 
+}
+.form3{
+
+    background-image: repeating-radial-gradient(circle,red  ,white , black 30px);
+    margin-top: 10px;
+    box-shadow: -2px 4px 9px 4px yellow;
+    padding-left: 10px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    background-color:rgba(160,32, 240, 0.4);
+    border: style 2px solid white;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    text-align: center;
+}
+
+#one{
+    border-style: 2px solid black;
+    border-radius: 20px; 
+    height: 40px; 
+}
+#two:hover{
+    font-family: italic;
+    text-shadow:  -4px 2px white
+    ;
+}
+#two{
+    position: relative ;
+    background-color: orange;
+    top:10px;
+    border-style: 2px solid black;
+    border-radius: 20px;
+height: 30px;
+  
+}
+.parent{
+    padding-left: 0px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    border: style 2px solid white;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.parent input{
+    width: 100%;
+    height: 100%;
+}
+.parent button{
+    background-color:none ;
+    width:fit-content;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    right:40%;
+    top:270;
+    border:none
+
+}
+ #twooo{
+    border: none;
+    padding-left: 5px;
+    background-color:none ;
+    width:fit-content;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: row;
+    position:absolute;
+    right:35%;
+    top:270;
+}
+#ooonee{
+    padding-right: auto;
+    background-color: orange;
+}
+
+#twooo:active{
+background-color: orange;    
+}
+.transition{
+   
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    transition:width 3s height 2s transform 2s background-color 6s; 
+}
+.transition:hover{
+    border-radius: 30%;
+    background-color: red;
+    width:200px ;
+    height:200px ;
+    transform: rotate(20deg);
+    background-image: repeating-radial-gradient(circle,red  ,white , black 30px);
+}

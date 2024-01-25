@@ -1,0 +1,48 @@
+.header{
+    background-color: black;
+    color:yellow;
+   text-align:center;
+   display:flex;
+
+   flex-direction: row;
+}
+.header h2{
+    color: yellow;
+   padding-left: 500px;
+   text-shadow: -2px -3px 20px white;
+   text-decoration-line: 2px wavy ;
+}
+
+
+.header img{
+    padding-left: 20px;
+    width:10%;
+
+}
+.menu{
+    text-align: center;
+    padding:px;
+    display: flex;
+    margin:0px;
+    color:black;
+    flex-direction: row;
+    background-color: grey;
+    gap:90px;
+    padding-left: 200px;
+}
+.menu:hover{
+    text-decoration-line: underline;
+    color: green;
+}
+.information {
+    height:500px;
+    width: 500px;
+    position: ;
+    background-image: url("ultron_in_avengers_age_of_ultron.jpg");
+}
+a{
+    color: brown;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-shadow: -1px -1px  blue;
+}
